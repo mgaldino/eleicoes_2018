@@ -8,9 +8,9 @@ url_base <- "http://agencia.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/bu
 
 link <- read_html(url_base) %>% html_nodes(xpath = "//a") %>% html_text() %>% .[seq(6,58, 2)]
 
-arquivo <- link[str_detect("MG")]
+arquivo <- link[str_detect(link, "MG")]
 
-download.file(paste0(url_base, arquivo), arquivo)
+download.file(paste0(url_base, arquivo), paste0("", arquivo))
 
 unzip(arquivo)
 
