@@ -2,3 +2,21 @@
 *.csv
 
 *.zip
+
+*.dbf
+
+*.prj
+
+*.qpj
+
+*.shp
+
+*.shx
+
+*.cpg
+
+*.sbn
+
+*.sbx
+
+*.xml
