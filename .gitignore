@@ -20,3 +20,13 @@
 *.sbx
 
 *.xml
+
+*.png
+
+*.pdf
+
+*.xls
+
+.Rhistory
+
+.RData

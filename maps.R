@@ -127,3 +127,4 @@ ggsave("Nulo_bh.png", width = 4.2, height = 6.67)
 ggplot() + geom_sf(data = shpp[shpp$NM_VOTAVEL == "Branco",], aes(fill = Total_cand)) + 
   scale_fill_continuous( high= "#132B43",  low = "#56B1F7") + theme_classic() + labs(title = "Branco - BH")
 ggsave("Branco_bh.png", width = 4.2, height = 6.67)
+
