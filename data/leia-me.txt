@@ -1,1 +1,1 @@
-# dados locais de urnas georefenciados foi cedido pelo Lucas Gelap
+# dados locais de votações georefenciados foi cedido pelo Lucas Gelap lgelape@gmail.com

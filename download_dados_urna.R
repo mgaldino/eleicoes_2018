@@ -12,5 +12,5 @@ arquivo <- link[str_detect(link, "MG")]
 
 download.file(paste0(url_base, arquivo), paste0("data/", arquivo))
 
-unzip(paste0("data/", arquivo))
+unzip(paste0("data/", arquivo), exdir = "data")
 
