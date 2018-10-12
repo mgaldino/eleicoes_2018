@@ -10,7 +10,7 @@ link <- read_html(url_base) %>% html_nodes(xpath = "//a") %>% html_text() %>% .[
 
 arquivo <- link[str_detect(link, "MG")]
 
-download.file(paste0(url_base, arquivo), paste0("", arquivo))
+download.file(paste0(url_base, arquivo), paste0("data/", arquivo))
 
-unzip(arquivo)
+unzip(paste0("data/", arquivo))
 
